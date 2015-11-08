@@ -2,7 +2,7 @@
  * SubStr.c
  *
  *  Created on: 08-Nov-2015
- *      Author: joe
+ *
  */
 
 #include<stdlib.h>
@@ -31,6 +31,16 @@ int uscrb(char*, node);
 void recn(char*, int, int, node);
 void substrgen(char*, node);
 void sgen(char*, node, int, int, int, int);
+node ma(void);
+int strins(node,char*);
+int chk(node,char*);
+void end(void);
+void ip(char*);
+void dealloc(node);
+void clruq(void);
+int op(char*);
+void slwr(char*);
+
 
 int main() {
 
